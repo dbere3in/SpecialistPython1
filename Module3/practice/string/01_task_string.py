@@ -5,6 +5,4 @@
 
 name = input("Имя: ")
 surname = input("Фамилия: ")
-
-
-print(name, surname)
+print(name[0].upper()+name[1:], surname[0].upper()+surname[1:])
