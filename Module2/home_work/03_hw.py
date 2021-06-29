@@ -29,3 +29,9 @@
 # 20 199.80 Rub.
 
 # TODO: your code here
+
+x = float(input("Цена товара: "))
+i = 1
+while i<=20:
+    print(i, '%.2f' % (i*x), "Rub.")
+    i+=1
